@@ -5,24 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDKn3vA2YUbXzN0ZC3gALWJ08gJN-Drl15w&s">
+    <script src="./main.js" type="text/javascript" async></script>
     <title>Sáng học TailwindCSS</title>
 </head>
 
 <body>
     <div id="root">
         <div class="content-wrapper font-Karla max-w-screen-xl text-base mx-auto px-8 bg-slate-200">
-            <header class="py-6 mx-10">
-                <nav class="flex flex-row justify-between items-center">
+            <header class="py-6 mx-auto bg-white">
+                <nav class="flex flex-row justify-between items-center relative">
                     <div class="logo basis-2/6 text-center text-xl font-semibold cursor-pointer">
                         CoffeStyle.
                     </div>
-                    <ul
-                        class="basis-3/6 flex items-center justify-end gap-8 uppercase text-sm font-medium text-gray-500">
-                        <li class="nxs-top-menu-item">
+                    <ul id="nxs-top-menu-responsive" class="basis-3/6 hidden lg:flex lg:items-center lg:justify-end lg:gap-8 
+                        uppercase text-sm font-medium text-gray-500">
+                        <li class="nxs-top-menu-item-active">
                             <a href="#" class="">Home</a>
                         </li>
                         <li class="nxs-top-menu-item">
-                            <a href="#">Our product</a>
+                            <a href="#">Product</a>
                         </li>
                         <li class="nxs-top-menu-item">
                             <a href="#">Blog</a>
@@ -38,7 +41,7 @@
                         </li>
                     </ul>
                     <ul
-                        class="basis-1/6 flex justify-start items-center ml-16 uppercase text-sm font-medium text-gray-500">
+                        class="lg:basis-1/6 basis-3/6 flex justify-end lg:justify-start items-center ml-16 uppercase text-sm font-medium text-gray-500">
                         <li class="">
                             <a href="#" class="flex items-center">
                                 <svg class="nxs-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -59,6 +62,15 @@
                             </a>
                         </li>
                     </ul>
+                    <div class="lg:hidden basis-1/6 flex items-center px-2 sm:px-4">
+                        <svg id="nxs-top-menu-toggle-icon" class="nxs-icon cursor-pointer"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+
+                    </div>
                 </nav>
             </header>
 
