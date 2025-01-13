@@ -8,11 +8,15 @@
 }
 
 .nxs-top-menu-item {
-  @apply after:lg:bg-coffee-200 relative cursor-pointer py-1 hover:text-gray-800 after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:h-0.5 after:lg:w-0 after:lg:transition-all after:lg:duration-300 after:lg:ease-in-out hover:after:lg:w-full;
+  @apply after:lg:bg-coffee-200 relative cursor-pointer py-1 hover:text-gray-800 
+  after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:h-0.5 after:lg:w-0 
+  after:lg:transition-all after:lg:duration-300 after:lg:ease-in-out hover:after:lg:w-full;
 }
 
 .nxs-top-menu-item-active {
-  @apply after:lg:bg-coffee-200 relative text-gray-800 after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:h-0.5 after:lg:w-0 after:lg:transition-all after:lg:duration-300 after:lg:ease-in-out hover:after:lg:w-full;
+  @apply after:lg:bg-coffee-200 relative text-gray-800 after:lg:absolute 
+  after:lg:bottom-0 after:lg:left-0 after:lg:h-0.5 after:lg:w-0 after:lg:transition-all 
+  after:lg:duration-300 after:lg:ease-in-out hover:after:lg:w-full;
 }
 
 .nxs-icon {
@@ -28,9 +32,13 @@
 }
 
 .nxs-subheadline-label {
-  @apply uppercase tracking-widest text-gray-500 font-bold text-[12px] text-center;
+  @apply uppercase tracking-widest text-gray-500 font-bold text-xs text-center;
 }
 
 .nxs-subheadline-deco-line {
   @apply w-8 h-px bg-gray-300;
+}
+
+.nxs-button {
+  @apply text-center cursor-pointer px-6 py-4 text-xs font-semibold uppercase tracking-widest text-black;
 }
