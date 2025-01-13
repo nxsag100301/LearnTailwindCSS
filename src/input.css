@@ -3,26 +3,34 @@
 @tailwind components;
 @tailwind utilities;
 
-.nxs-top-menu-mobile{
-    @apply absolute top-10 z-50 w-full bg-white text-center animate-slideDown
+.nxs-top-menu-mobile {
+  @apply absolute top-12 w-full animate-slideDown bg-white text-center;
 }
 
-.nxs-top-menu-item{
-    @apply cursor-pointer py-1 hover:text-gray-800 relative
-    after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-light-coffe after:lg:h-0.5 
-     after:lg:w-0 hover:after:lg:w-full after:lg:transition-all after:lg:ease-in-out after:lg:duration-300;
+.nxs-top-menu-item {
+  @apply after:lg:bg-coffee-200 relative cursor-pointer py-1 hover:text-gray-800 after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:h-0.5 after:lg:w-0 after:lg:transition-all after:lg:duration-300 after:lg:ease-in-out hover:after:lg:w-full;
 }
 
-.nxs-top-menu-item-active{
-    @apply text-gray-800 relative after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-light-coffe after:lg:h-0.5 
-    after:lg:w-0 hover:after:lg:w-full after:lg:transition-all after:lg:ease-in-out after:lg:duration-300
+.nxs-top-menu-item-active {
+  @apply after:lg:bg-coffee-200 relative text-gray-800 after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:h-0.5 after:lg:w-0 after:lg:transition-all after:lg:duration-300 after:lg:ease-in-out hover:after:lg:w-full;
 }
 
-.nxs-icon{
-    @apply w-5 h-5 inline-block
+.nxs-icon {
+  @apply inline-block h-5 w-5;
 }
 
-.nxs-badge-circle{
-@apply text-xs flex rounded-full p-0.5 min-h-5 min-w-5  items-center justify-center
+.nxs-badge-circle {
+  @apply flex min-h-5 min-w-5 items-center justify-center rounded-full p-0.5 text-xs;
 }
 
+.nxs-subheadline {
+  @apply flex justify-center items-center mb-24 lg:gap-4 md:gap-4 xl:gap-4 sm:gap-3 gap-2 mx-5;
+}
+
+.nxs-subheadline-label {
+  @apply uppercase tracking-widest text-gray-500 font-bold text-[12px] text-center;
+}
+
+.nxs-subheadline-deco-line {
+  @apply w-8 h-px bg-gray-300;
+}
