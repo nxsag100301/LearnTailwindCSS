@@ -622,10 +622,6 @@ video {
   margin-top: 1.5rem;
 }
 
-.mb-2{
-  margin-bottom: 0.5rem;
-}
-
 .flex{
   display: flex;
 }
@@ -643,6 +639,10 @@ video {
   height: 1.5rem;
 }
 
+.h-\[180px\]{
+  height: 180px;
+}
+
 .h-\[350px\]{
   height: 350px;
 }
@@ -653,30 +653,6 @@ video {
 
 .h-full{
   height: 100%;
-}
-
-.h-\[250px\]{
-  height: 250px;
-}
-
-.h-\[240px\]{
-  height: 240px;
-}
-
-.h-\[200px\]{
-  height: 200px;
-}
-
-.h-\[100px\]{
-  height: 100px;
-}
-
-.h-\[150px\]{
-  height: 150px;
-}
-
-.h-\[180px\]{
-  height: 180px;
 }
 
 .w-11\/12{
@@ -800,6 +776,18 @@ video {
   background-image: url('https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7a58aaecdfba_Header-Pic.jpg');
 }
 
+.bg-\[url\(https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a0c09ece01c_steve-harvey-523112-unsplash\.jpg\)\]{
+  background-image: url(https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a0c09ece01c_steve-harvey-523112-unsplash.jpg);
+}
+
+.bg-\[url\(https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a1db2ece009_natanja-grun-600152-unsplash\.jpg\)\]{
+  background-image: url(https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a1db2ece009_natanja-grun-600152-unsplash.jpg);
+}
+
+.bg-\[url\(https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a223decdff8_ronaldo-arthur-vidal-66241-unsplash\.jpg\)\]{
+  background-image: url(https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a223decdff8_ronaldo-arthur-vidal-66241-unsplash.jpg);
+}
+
 .bg-\[url\(https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a25acecdfd6_jakub-dziubak-394720-unsplash\.jpg\)\]{
   background-image: url(https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a25acecdfd6_jakub-dziubak-394720-unsplash.jpg);
 }
@@ -812,16 +800,12 @@ video {
   background-image: url(https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a6173ece01a_trent-erwin-570303-unsplash.jpg);
 }
 
-.bg-\[url\(https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a0c09ece01c_steve-harvey-523112-unsplash\.jpg\)\]{
-  background-image: url(https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a0c09ece01c_steve-harvey-523112-unsplash.jpg);
-}
-
-.bg-\[url\(https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a223decdff8_ronaldo-arthur-vidal-66241-unsplash\.jpg\)\]{
-  background-image: url(https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a223decdff8_ronaldo-arthur-vidal-66241-unsplash.jpg);
-}
-
 .bg-\[url\(https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a6d09ece015_rocknwool-690694-unsplash\.jpg\)\]{
   background-image: url(https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a6d09ece015_rocknwool-690694-unsplash.jpg);
+}
+
+.bg-\[url\(https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a81a6ecdfe7_levi-guzman-1077850-unsplash\.jpg\)\]{
+  background-image: url(https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a81a6ecdfe7_levi-guzman-1077850-unsplash.jpg);
 }
 
 .bg-\[url\(https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a8461ece016_nathan-dumlao-643391-unsplash\.jpg\)\]{
@@ -830,14 +814,6 @@ video {
 
 .bg-\[url\(https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7ae493ece012_rawpixel-645289-unsplash\.jpg\)\]{
   background-image: url(https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7ae493ece012_rawpixel-645289-unsplash.jpg);
-}
-
-.bg-\[url\(https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a1db2ece009_natanja-grun-600152-unsplash\.jpg\)\]{
-  background-image: url(https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a1db2ece009_natanja-grun-600152-unsplash.jpg);
-}
-
-.bg-\[url\(https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a81a6ecdfe7_levi-guzman-1077850-unsplash\.jpg\)\]{
-  background-image: url(https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a81a6ecdfe7_levi-guzman-1077850-unsplash.jpg);
 }
 
 .bg-contain{
@@ -1274,16 +1250,12 @@ video {
 }
 
 @media (min-width: 640px){
-  .sm\:h-\[420px\]{
-    height: 420px;
-  }
-
-  .sm\:h-\[300px\]{
-    height: 300px;
-  }
-
   .sm\:h-\[290px\]{
     height: 290px;
+  }
+
+  .sm\:h-\[420px\]{
+    height: 420px;
   }
 
   .sm\:w-\[90\%\]{
@@ -1294,12 +1266,12 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .sm\:gap-5{
-    gap: 1.25rem;
-  }
-
   .sm\:gap-4{
     gap: 1rem;
+  }
+
+  .sm\:gap-5{
+    gap: 1.25rem;
   }
 
   .sm\:px-16{
@@ -1314,16 +1286,12 @@ video {
 }
 
 @media (min-width: 768px){
-  .md\:h-\[500px\]{
-    height: 500px;
-  }
-
-  .md\:h-\[350px\]{
-    height: 350px;
-  }
-
   .md\:h-\[340px\]{
     height: 340px;
+  }
+
+  .md\:h-\[500px\]{
+    height: 500px;
   }
 
   .md\:w-\[90\%\]{
@@ -1338,12 +1306,12 @@ video {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .md\:gap-5{
-    gap: 1.25rem;
-  }
-
   .md\:gap-4{
     gap: 1rem;
+  }
+
+  .md\:gap-5{
+    gap: 1.25rem;
   }
 
   .md\:px-32{
@@ -1361,16 +1329,12 @@ video {
     display: none;
   }
 
-  .lg\:h-\[540px\]{
-    height: 540px;
-  }
-
-  .lg\:h-\[400px\]{
-    height: 400px;
-  }
-
   .lg\:h-\[380px\]{
     height: 380px;
+  }
+
+  .lg\:h-\[540px\]{
+    height: 540px;
   }
 
   .lg\:w-\[75\%\]{
@@ -1383,10 +1347,6 @@ video {
 
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .lg\:grid-cols-3{
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:items-center{
