@@ -622,6 +622,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
 .flex{
   display: flex;
 }
@@ -639,24 +643,40 @@ video {
   height: 1.5rem;
 }
 
-.h-\[530px\]{
-  height: 530px;
+.h-\[350px\]{
+  height: 350px;
 }
 
-.h-\[540px\]{
-  height: 540px;
+.h-\[530px\]{
+  height: 530px;
 }
 
 .h-full{
   height: 100%;
 }
 
-.h-\[300px\]{
-  height: 300px;
+.h-\[250px\]{
+  height: 250px;
 }
 
-.h-\[350px\]{
-  height: 350px;
+.h-\[240px\]{
+  height: 240px;
+}
+
+.h-\[200px\]{
+  height: 200px;
+}
+
+.h-\[100px\]{
+  height: 100px;
+}
+
+.h-\[150px\]{
+  height: 150px;
+}
+
+.h-\[180px\]{
+  height: 180px;
 }
 
 .w-11\/12{
@@ -667,28 +687,12 @@ video {
   width: 6rem;
 }
 
-.w-\[75\%\]{
-  width: 75%;
-}
-
-.w-full{
-  width: 100%;
-}
-
-.w-\[95\%\]{
-  width: 95%;
-}
-
-.w-\[90\%\]{
-  width: 90%;
-}
-
 .w-\[80\%\]{
   width: 80%;
 }
 
-.w-\[70\%\]{
-  width: 70%;
+.w-full{
+  width: 100%;
 }
 
 .max-w-screen-xl{
@@ -724,12 +728,12 @@ video {
   cursor: pointer;
 }
 
-.grid-cols-2{
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-row{
@@ -756,24 +760,12 @@ video {
   justify-content: space-between;
 }
 
-.gap-5{
-  gap: 1.25rem;
-}
-
-.gap-8{
-  gap: 2rem;
-}
-
-.gap-1{
-  gap: 0.25rem;
-}
-
-.gap-10{
-  gap: 2.5rem;
-}
-
 .gap-12{
   gap: 3rem;
+}
+
+.gap-5{
+  gap: 1.25rem;
 }
 
 .border-2{
@@ -814,6 +806,38 @@ video {
 
 .bg-\[url\(https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a512bece011_liana-mikah-698524-unsplash\.jpg\)\]{
   background-image: url(https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a512bece011_liana-mikah-698524-unsplash.jpg);
+}
+
+.bg-\[url\(https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a6173ece01a_trent-erwin-570303-unsplash\.jpg\)\]{
+  background-image: url(https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a6173ece01a_trent-erwin-570303-unsplash.jpg);
+}
+
+.bg-\[url\(https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a0c09ece01c_steve-harvey-523112-unsplash\.jpg\)\]{
+  background-image: url(https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a0c09ece01c_steve-harvey-523112-unsplash.jpg);
+}
+
+.bg-\[url\(https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a223decdff8_ronaldo-arthur-vidal-66241-unsplash\.jpg\)\]{
+  background-image: url(https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a223decdff8_ronaldo-arthur-vidal-66241-unsplash.jpg);
+}
+
+.bg-\[url\(https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a6d09ece015_rocknwool-690694-unsplash\.jpg\)\]{
+  background-image: url(https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a6d09ece015_rocknwool-690694-unsplash.jpg);
+}
+
+.bg-\[url\(https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a8461ece016_nathan-dumlao-643391-unsplash\.jpg\)\]{
+  background-image: url(https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a8461ece016_nathan-dumlao-643391-unsplash.jpg);
+}
+
+.bg-\[url\(https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7ae493ece012_rawpixel-645289-unsplash\.jpg\)\]{
+  background-image: url(https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7ae493ece012_rawpixel-645289-unsplash.jpg);
+}
+
+.bg-\[url\(https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a1db2ece009_natanja-grun-600152-unsplash\.jpg\)\]{
+  background-image: url(https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a1db2ece009_natanja-grun-600152-unsplash.jpg);
+}
+
+.bg-\[url\(https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a81a6ecdfe7_levi-guzman-1077850-unsplash\.jpg\)\]{
+  background-image: url(https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a81a6ecdfe7_levi-guzman-1077850-unsplash.jpg);
 }
 
 .bg-contain{
@@ -1250,20 +1274,16 @@ video {
 }
 
 @media (min-width: 640px){
-  .sm\:h-\[400px\]{
-    height: 400px;
-  }
-
-  .sm\:h-\[450px\]{
-    height: 450px;
-  }
-
   .sm\:h-\[420px\]{
     height: 420px;
   }
 
-  .sm\:w-\[80\%\]{
-    width: 80%;
+  .sm\:h-\[300px\]{
+    height: 300px;
+  }
+
+  .sm\:h-\[290px\]{
+    height: 290px;
   }
 
   .sm\:w-\[90\%\]{
@@ -1278,6 +1298,10 @@ video {
     gap: 1.25rem;
   }
 
+  .sm\:gap-4{
+    gap: 1rem;
+  }
+
   .sm\:px-16{
     padding-left: 4rem;
     padding-right: 4rem;
@@ -1290,12 +1314,16 @@ video {
 }
 
 @media (min-width: 768px){
-  .md\:h-\[450px\]{
-    height: 450px;
-  }
-
   .md\:h-\[500px\]{
     height: 500px;
+  }
+
+  .md\:h-\[350px\]{
+    height: 350px;
+  }
+
+  .md\:h-\[340px\]{
+    height: 340px;
   }
 
   .md\:w-\[90\%\]{
@@ -1306,8 +1334,16 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .md\:gap-5{
     gap: 1.25rem;
+  }
+
+  .md\:gap-4{
+    gap: 1rem;
   }
 
   .md\:px-32{
@@ -1329,6 +1365,14 @@ video {
     height: 540px;
   }
 
+  .lg\:h-\[400px\]{
+    height: 400px;
+  }
+
+  .lg\:h-\[380px\]{
+    height: 380px;
+  }
+
   .lg\:w-\[75\%\]{
     width: 75%;
   }
@@ -1339,6 +1383,10 @@ video {
 
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:items-center{
@@ -1353,12 +1401,12 @@ video {
     justify-content: flex-end;
   }
 
-  .lg\:gap-8{
-    gap: 2rem;
-  }
-
   .lg\:gap-5{
     gap: 1.25rem;
+  }
+
+  .lg\:gap-8{
+    gap: 2rem;
   }
 
   .lg\:px-64{
