@@ -28,7 +28,7 @@
 }
 
 .nxs-subheadline {
-  @apply flex justify-center items-center mb-24 lg:gap-4 md:gap-4 xl:gap-4 sm:gap-3 gap-2 mx-5;
+  @apply flex justify-center items-center mb-5 lg:mb-24 lg:gap-4 md:gap-4 xl:gap-4 sm:gap-3 gap-2 mx-5;
 }
 
 .nxs-subheadline-label {
@@ -40,5 +40,5 @@
 }
 
 .nxs-button {
-  @apply text-center cursor-pointer px-6 py-4 text-xs font-semibold uppercase tracking-widest text-black;
+  @apply text-center cursor-pointer px-6 py-4 text-xs font-semibold uppercase tracking-widest;
 }
